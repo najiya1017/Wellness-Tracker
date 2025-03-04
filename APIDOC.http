@@ -30,3 +30,10 @@ Content-Type: application/json
 Authorization: Basic luminar:Password@123
 
 
+
+###
+#api call for total calorie
+GET http://127.0.0.1:8000/api/calorie/sum/
+Content-Type: application/json
+Authorization: Basic luminar:Password@123
+
