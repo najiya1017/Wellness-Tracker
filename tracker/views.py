@@ -2,6 +2,7 @@ from django.shortcuts import render
 from rest_framework.generics import CreateAPIView,ListCreateAPIView,ListAPIView
 from rest_framework import authentication, permissions
 from tracker.serializers import UserCreationSerializer,MealSerializer
+from tracker.models import Meal
 
 class UserCreateView(CreateAPIView):
     serializer_class = UserCreationSerializer

@@ -21,3 +21,12 @@ Authorization: Basic luminar:Password@123
     "meal":"breakfast",
     "calories":150
 }
+
+
+###
+#api call to list all meals
+GET http://127.0.0.1:8000/api/meals/
+Content-Type: application/json
+Authorization: Basic luminar:Password@123
+
+
