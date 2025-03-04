@@ -1,0 +1,23 @@
+#API for creating account for user
+###
+POST http://127.0.0.1:8000/api/create/
+Content-Type: application/json
+
+{
+    "username":"luminar",
+    "email":"luminar@gmail.com",
+    "password":"Password@123"
+}
+
+
+#Api for create a new meal
+###
+POST http://127.0.0.1:8000/api/meals/
+Content-Type: application/json
+Authorization: Basic luminar:Password@123
+
+{
+    "name":"masal dosa",
+    "meal":"breakfast",
+    "calories":150
+}
